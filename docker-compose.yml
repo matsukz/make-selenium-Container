@@ -17,4 +17,4 @@ services:
       - ./python/src:/src
     tty: true
     depends_on:
-      - bs4_selenium
+      - sele_selenium
